@@ -28,7 +28,7 @@ public class DFSM {
 		Scanner kb = new Scanner(System.in);
 
 
-		//User input, only accepts 0s and 1s and input
+	//User input, only accepts 0s and 1s and input
         System.out.println("Please enter a binary string.\nWe are looking for the substring 00100100.");
         while(!kb.hasNext("[01]+")){
             System.out.println("Please enter a binary string.");
