@@ -45,13 +45,10 @@ public class DFSM {
         }
 
         //STATE9 is our accepting state
-        if (dfsm.getState() == State.STATE9) {
+        if (dfsm.getState() == State.STATE9)
         	System.out.println("Your entry contains the substring '00100100'.");
-        }
-        else {
+        else
         	System.out.println("Your entry does not contain the substring '00100100'.");
-        }
-
 
 	}
 }
